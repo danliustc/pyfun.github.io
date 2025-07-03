@@ -22,6 +22,9 @@ plugins:
 markdown: kramdown
 highlighter: rouge
 
+include:
+  - "_pages"
+
 permalink: /:year/:month/:day/:title/
 
 defaults:
