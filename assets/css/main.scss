@@ -1,17 +1,35 @@
 ---
 ---
 
-$mono-family: "Fira Code", "Source Code Pro", "SF Mono", "Monaco", "Consolas", monospace;
-
+/* 1. 字体族统一 */
+$mono-family: "Fira Code", "Source Code Pro", "SF Mono",
+              "Monaco", "Consolas", monospace;
 $global-font-family: $mono-family;
 $header-font-family: $mono-family;
 
+/* 2. 先导入主题，后面再覆写局部 */
 @import "minimal-mistakes";
 
-body {
-  font-size: 16px !important;
+/* 3. 基准字号：16 px → 18 px（≥768 px）*/
+html { font-size: 100%; }                 // 16 px
+@media (min-width: 768px) {
+  html { font-size: 112.5%; }             // 18 px
 }
 
-html, body, h1, h2, h3, h4, h5, h6, p, li, a {
-  font-family: $mono-family !important;
-} 
+/* 4. 正文与行距 */
+body {
+  font-family: $mono-family;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* 5. 标题比例阶梯 */
+h1 { font-size: 2.25rem; margin-top: 2.5rem; }
+h2 { font-size: 1.75rem; margin-top: 2rem;  }
+h3 { font-size: 1.50rem; margin-top: 1.5rem; }
+h4 { font-size: 1.25rem; margin-top: 1rem;  }
+
+/* 6. 如需兜底，可保留轻量级通配覆盖 */
+html, body, p, li, a {
+  font-family: $mono-family;
+}
