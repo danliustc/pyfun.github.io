@@ -1,13 +1,17 @@
 ---
 ---
 
-$modern-serif-family: "Georgia", "Noto Serif SC", "Source Han Serif SC", "SimSun", serif;
+$mono-family: "Fira Code", "Source Code Pro", "SF Mono", "Monaco", "Consolas", monospace;
 
-$global-font-family: $modern-serif-family;
-$header-font-family: $modern-serif-family;
+$global-font-family: $mono-family;
+$header-font-family: $mono-family;
 
 @import "minimal-mistakes";
 
+body {
+  font-size: 14px !important;
+}
+
 html, body, h1, h2, h3, h4, h5, h6, p, li, a {
-  font-family: $modern-serif-family !important;
+  font-family: $mono-family !important;
 } 
