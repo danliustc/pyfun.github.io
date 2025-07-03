@@ -33,9 +33,3 @@ defaults:
       comments: false
       share: true
       related: true
-
-navigation:
-  - title: "首页"
-    url: /
-  - title: "关于我"
-    url: /about/
