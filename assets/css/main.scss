@@ -1,12 +1,17 @@
-/* assets/css/main.scss */
+@charset "utf-8";
 
-// 1. 定义你的学术风格字体
-$academic-font-family: "Times New Roman", Times, "Songti SC", "SimSun", "NSimSun", "STSong", serif;
+/*
+ *   1. 定义你的学术风格字体
+ */
+$serif-font-family: "Times New Roman", Times, "Songti SC", "SimSun", serif;
 
-// 2. 覆盖主题的默认字体变量
-// 将网站的所有文本（正文、标题等）都设置为新字体
-$global-font-family: $academic-font-family;
-$header-font-family: $academic-font-family;
+/*
+ *   2. 覆盖主题的默认字体变量
+ */
+$global-font-family: $serif-font-family;
+$header-font-family: $serif-font-family;
 
-// 3. 导入 Minimal Mistakes 主题的核心样式
+/*
+ *   3. 导入 Minimal Mistakes 主题的核心样式
+ */
 @import "minimal-mistakes"; 
