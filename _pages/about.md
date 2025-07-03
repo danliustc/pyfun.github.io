@@ -2,6 +2,7 @@
 layout: single
 title: "关于我"
 permalink: /about/
+author: "Dan"
 author_profile: true
 ---
 
@@ -26,4 +27,3 @@ author_profile: true
 欢迎同行、朋友与我交流合作！  
 📧 联系方式：[liwbeijing@gmail.com](mailto:liwbeijing@gmail.com)
 
-<!-- 你可以根据需要补充更多内容或图片 -->

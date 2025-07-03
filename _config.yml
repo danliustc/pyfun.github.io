@@ -1,12 +1,12 @@
 title: "PyFun Notes"
 description: "AI、芯片、产品思考｜写给未来的同行"
 baseurl: "" 
-url: "https://pyfun.github.io"
+url: "https://pycat.site/"
 locale: "zh-CN"
 
-author:
-  name: "Dan"
-  email: "liwbeijing@gmail.com"
+# author:
+#  name: "Dan"
+#  email: "liwbeijing@gmail.com"
 
 remote_theme: "mmistakes/minimal-mistakes"
 
@@ -28,6 +28,7 @@ defaults:
       type: "posts"
     values:
       layout: "single"
+      author: "Dan"
       author_profile: true
       read_time: true
       comments: false

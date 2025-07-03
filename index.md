@@ -9,4 +9,3 @@ author_profile: true
 
 这里记录我在 AI、芯片、产品管理等领域的思考与成长。
 
-<!-- 你可以在 _config.yml 或 _data/authors.yml 配置作者信息 --> 

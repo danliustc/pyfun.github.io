@@ -1,0 +1,7 @@
+# /_data/authors.yml
+Dan:
+  name: "Dan"
+  email: "liwbeijing@gmail.com"
+  # 你可以在这里添加更多信息，如 bio, avatar, social links
+  # bio: "Your bio here."
+  # avatar: "/assets/images/your-avatar.jpg" 
