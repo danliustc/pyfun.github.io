@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://pyfun.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pyfun.github.io/" rel="alternate" type="text/html" /><updated>2025-07-03T04:05:52+00:00</updated><id>https://pyfun.github.io/feed.xml</id><title type="html">PyFun Notes</title><subtitle>AI、芯片、产品思考｜写给未来的同行</subtitle><author><name>Dan</name><email>liwbeijing@gmail.com</email></author><entry><title type="html">写在起点：为什么我搭建这个博客</title><link href="https://pyfun.github.io/%E6%80%9D%E8%80%83/2025/07/03/first-post.html" rel="alternate" type="text/html" title="写在起点：为什么我搭建这个博客" /><published>2025-07-03T00:00:00+00:00</published><updated>2025-07-03T00:00:00+00:00</updated><id>https://pyfun.github.io/%E6%80%9D%E8%80%83/2025/07/03/first-post</id><content type="html" xml:base="https://pyfun.github.io/%E6%80%9D%E8%80%83/2025/07/03/first-post.html"><![CDATA[<p>我叫 Dan，从事 AI 芯片领域的产品工作。这个博客会记录我在产品管理、AI 系统落地、芯片生态等话题上的思考，也作为我个人成长的轨迹备份。</p>
+
+<p>相比写在微信、知乎，我更希望拥有一个<strong>由我掌控的写作空间</strong>。</p>
+
+<blockquote>
+  <p>欢迎你订阅、转发、或邮件联系我（邮件见页尾）。如果你对 AI 推理、产品实践、芯片生态感兴趣，我们值得聊聊。</p>
+</blockquote>
+
+<p>接下来，我会写一些更深入的产品/工程思考，敬请期待。</p>]]></content><author><name>Dan</name><email>liwbeijing@gmail.com</email></author><category term="思考" /><category term="产品经理" /><category term="AI" /><category term="写作" /><summary type="html"><![CDATA[我叫 Dan，从事 AI 芯片领域的产品工作。这个博客会记录我在产品管理、AI 系统落地、芯片生态等话题上的思考，也作为我个人成长的轨迹备份。]]></summary></entry></feed>
