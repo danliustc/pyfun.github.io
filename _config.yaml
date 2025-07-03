@@ -1,0 +1,33 @@
+title: "PyFun Notes"
+description: "AI、芯片、产品思考｜写给未来的同行"
+baseurl: "" 
+url: "https://pyfun.github.io"
+locale: "zh-CN"
+
+author:
+  name: "Dan"
+  email: "liwbeijing@gmail.com"
+
+theme: "minimal-mistakes-jekyll"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
