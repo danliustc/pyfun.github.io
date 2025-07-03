@@ -17,6 +17,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-remote-theme
+  - jekyll-include-cache
 
 markdown: kramdown
 highlighter: rouge
