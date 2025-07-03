@@ -1,28 +1,13 @@
 ---
----                // 必须的 front-matter，两行短横线即可
+---
 
-@charset "utf-8";
-
-// 1. 定义现代学术风格字体组合
-// Georgia: 专为屏幕阅读优化的衬线字体，比 Times New Roman 更清晰
-// Noto Serif SC: Google 设计的现代中文衬线字体
 $modern-serif-family: "Georgia", "Noto Serif SC", "Source Han Serif SC", "SimSun", serif;
 
-// 2. 覆盖 Minimal Mistakes 默认变量
 $global-font-family: $modern-serif-family;
 $header-font-family: $modern-serif-family;
 
-// 3. 导入主题核心样式
 @import "minimal-mistakes";
 
-// 4. 强制应用字体到关键元素，确保生效
-html, body, h1, h2, h3, h4, h5, h6,
-p, li, a, .site-title, .page__title,
-.archive__item-title, .page__content {
+html, body, h1, h2, h3, h4, h5, h6, p, li, a {
   font-family: $modern-serif-family !important;
-}
-
-// 5. 为代码块保持等宽字体
-code, pre {
-  font-family: "SF Mono", "Monaco", "Consolas", "Liberation Mono", monospace !important;
-}
+} 
