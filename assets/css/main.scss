@@ -14,4 +14,10 @@ $header-font-family: $serif-font-family;
 /*
  *   3. 导入 Minimal Mistakes 主题的核心样式
  */
-@import "minimal-mistakes"; 
+@import "minimal-mistakes";
+
+// 2. Now, forcefully override the font for all key elements
+// This is applied *after* the theme's styles, giving it the final say.
+html, body, h1, h2, h3, h4, h5, h6, p, li, a, .site-title, .page__title {
+  font-family: "Times New Roman", Times, "Songti SC", "SimSun", serif !important;
+} 
