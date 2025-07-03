@@ -1,23 +1,20 @@
+---
+---                // 必须的 front-matter，两行短横线即可
+
 @charset "utf-8";
 
-/*
- *   1. 定义你的学术风格字体
- */
+/* 1. 定义字体族 */
 $serif-font-family: "Times New Roman", Times, "Songti SC", "SimSun", serif;
 
-/*
- *   2. 覆盖主题的默认字体变量
- */
+/* 2. 覆盖 Minimal Mistakes 默认变量 */
 $global-font-family: $serif-font-family;
 $header-font-family: $serif-font-family;
 
-/*
- *   3. 导入 Minimal Mistakes 主题的核心样式
- */
+/* 3. 导入主题核心样式（保持在变量覆盖之后） */
 @import "minimal-mistakes";
 
-// 2. Now, forcefully override the font for all key elements
-// This is applied *after* the theme's styles, giving it the final say.
-html, body, h1, h2, h3, h4, h5, h6, p, li, a, .site-title, .page__title {
-  font-family: "Times New Roman", Times, "Songti SC", "SimSun", serif !important;
-} 
+/* 4. （可选）兜底强制覆盖关键元素 */
+html, body, h1, h2, h3, h4, h5, h6,
+p, li, a, .site-title, .page__title {
+  font-family: $serif-font-family !important;
+}
