@@ -22,18 +22,6 @@ feed:
   posts_limit: 20                    # RSS中显示的文章数量
   excerpt_only: false                # 显示完整文章内容，不仅仅是摘要
   path: /feed.xml                    # RSS feed路径
-  tags: true                         # 在RSS中包含标签信息
-  categories: true                   # 在RSS中包含分类信息
-
-# SEO优化
-twitter:
-  username: "pyfun_notes"           # 如果有Twitter账号
-
-social:
-  type: Person
-  name: "Dan"
-  links:
-    - "https://github.com/danliustc"
 
 plugins:
   - jekyll-feed
