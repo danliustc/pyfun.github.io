@@ -5,18 +5,35 @@ url: "https://pycat.site/"
 logo: "https://avatars.githubusercontent.com/u/17510239?v=4" # RSS feed logo
 locale: "zh-CN"
 
-# author:
-#  name: "Dan"
-#  email: "liwbeijing@gmail.com"
 author:
   name: "Dan"
   email: "liwbeijing@gmail.com"
+  bio: "AI、芯片、产品"
+  avatar: "https://avatars.githubusercontent.com/u/17510239?v=4"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/danliustc"
 
 remote_theme: "mmistakes/minimal-mistakes"
 
+# RSS Feed 优化配置
 feed:
-  posts_limit: 20
-  excerpt_only: false
+  posts_limit: 20                    # RSS中显示的文章数量
+  excerpt_only: false                # 显示完整文章内容，不仅仅是摘要
+  path: /feed.xml                    # RSS feed路径
+  tags: true                         # 在RSS中包含标签信息
+  categories: true                   # 在RSS中包含分类信息
+
+# SEO优化
+twitter:
+  username: "pyfun_notes"           # 如果有Twitter账号
+
+social:
+  type: Person
+  name: "Dan"
+  links:
+    - "https://github.com/danliustc"
 
 plugins:
   - jekyll-feed
