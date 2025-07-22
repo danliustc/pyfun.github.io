@@ -8,8 +8,15 @@ locale: "zh-CN"
 # author:
 #  name: "Dan"
 #  email: "liwbeijing@gmail.com"
+author:
+  name: "Dan"
+  email: "liwbeijing@gmail.com"
 
 remote_theme: "mmistakes/minimal-mistakes"
+
+feed:
+  posts_limit: 20
+  excerpt_only: false
 
 plugins:
   - jekyll-feed
