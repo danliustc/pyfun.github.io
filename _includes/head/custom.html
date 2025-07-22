@@ -1,0 +1,6 @@
+{%- assign favicon_url = site.logo | default: site.author.avatar -%}
+{% if favicon_url %}
+  <link rel="icon" href="{{ favicon_url }}" type="image/png">
+  <link rel="shortcut icon" href="{{ favicon_url }}" type="image/png">
+  <link rel="apple-touch-icon" href="{{ favicon_url }}" type="image/png">
+{% endif %} 

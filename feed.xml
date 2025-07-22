@@ -2,7 +2,7 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
@@ -11,18 +11,20 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% if site.logo %}
+    
+    {%- assign feed_image_url = site.logo | default: site.author.avatar -%}
+    {% if feed_image_url %}
     <image>
-      <url>{{ site.logo | absolute_url }}</url>
+      <url>{{ feed_image_url }}</url>
       <title>{{ site.title | xml_escape }}</title>
       <link>{{ site.url }}{{ site.baseurl }}/</link>
     </image>
-    {% endif %}
-    {% if site.author.avatar %}
-    <itunes:image href="{{ site.author.avatar | absolute_url }}"/>
+    <icon>{{ feed_image_url }}</icon>
+    <itunes:image href="{{ feed_image_url }}"/>
+    <media:thumbnail url="{{ feed_image_url }}" />
     {% endif %}
 
-    {% for post in site.posts limit:10 %}
+    {% for post in site.posts limit:20 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>
