@@ -1,7 +1,7 @@
 ---
 title: "MCP总结"
 date: 2025-07-03
-categories: [Notes]
+categories: [技术]
 tags: [产品经理, AI]
 ---
 
