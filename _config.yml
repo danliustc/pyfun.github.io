@@ -21,8 +21,6 @@ feed:
   posts_limit: 20                    # RSS中显示的文章数量
   excerpt_only: false                # 显示完整文章内容，不仅仅是摘要
   path: /feed.xml                    # RSS feed路径
-  tags: true                         # 包含文章标签
-  categories: true                    # 包含文章分类
 
 # RSS 额外配置
 rss:
@@ -61,4 +59,3 @@ defaults:
       read_time: false
       comments: false
       share: true
-      related: true
