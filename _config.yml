@@ -21,6 +21,15 @@ feed:
   posts_limit: 20                    # RSS中显示的文章数量
   excerpt_only: false                # 显示完整文章内容，不仅仅是摘要
   path: /feed.xml                    # RSS feed路径
+  tags: true                         # 包含文章标签
+  categories: true                    # 包含文章分类
+
+# RSS 额外配置
+rss:
+  site_description: "AI、芯片、产品相关技术博客"  # RSS feed描述
+  site_author: "Dan"                 # 站点作者
+  site_language: "zh-CN"             # 站点语言
+  site_copyright: "2025 Dan"         # 版权信息
 
 plugins:
   - jekyll-feed
