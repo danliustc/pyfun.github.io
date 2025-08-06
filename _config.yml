@@ -44,7 +44,6 @@ markdown: kramdown
 highlighter: rouge
 
 minimal_mistakes_skin: "default"
-search: true
 
 include:
   - "_pages"
